@@ -15,7 +15,7 @@ public class Application {
         double Prices = 75.00 + 45.00 + 9.50;
 
         FileWriter desires = new FileWriter("../desires.txt");
-        desires.write(pizza + kebab + cola);
+        desires.write(pizza /n + kebab /n + cola);
         desires.close();
 
         File file = new File ("../desires.txt");
